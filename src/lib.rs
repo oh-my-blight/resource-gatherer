@@ -1,1 +1,2 @@
 mod resources;
+mod view;

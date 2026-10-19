@@ -1,6 +1,3 @@
-
-
-
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Copy)]
 pub enum ResourceType {
     Stone,
@@ -15,14 +12,8 @@ pub struct ResourceStack {
 }
 
 impl ResourceStack {
-    fn new(kind: ResourceType, amount: i32) -> Result<> {
-        if amount < 0
-
+    fn new(kind: ResourceType, amount: i32) -> Self {
+        Self { kind, amount }
     }
 }
 
-
-
-mod tests {
-
-}
